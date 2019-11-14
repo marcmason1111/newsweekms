@@ -1,0 +1,115 @@
+.navbar {
+	margin-bottom: 0;
+}
+
+#map-marker {
+	padding-right: 46px;
+	padding-left: 46px;
+}
+
+.main {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.main-article {
+    background: linear-gradient(rgba(170,170,170,0.8) 9%, #FFF);
+    padding-bottom: 20px;
+    border-top: 4px solid red;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .main-article {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.main-title {
+	text-align: center;
+}
+
+h4, h4 > a {
+	color: #FF0500;
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+h3 a {
+	color: black;
+	font-size: 30px;
+}
+
+.sponsor {
+	background-color: #e6ffff;
+	height: 590px;
+}
+
+.leftmain {
+	height: 590px;
+}
+
+.small-article {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+@media (min-width: 768px) {
+  .border-right {
+    border-right: 1px solid #e5e5e5;
+  }
+}
+
+.sidebar > h4 {
+	font-size: 21px;
+	letter-spacing: 0.25px;
+	position: relative;
+	margin-top: 35px;
+	margin-left: -2px;
+	text-align: left;
+}
+
+.sidebar > ul {
+	position: relative;
+	left: -35px;
+	padding: 25px 0 30px 50px;
+	list-style-type: square;
+	list-style-position: inside;
+	color: #FF0500;
+}
+
+@media (max-width: 768px) {
+	.sidebar > ul {
+		text-align: center;
+	}
+}
+
+.sidebar > ul a {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.sidebar li {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 15px 15px 15px;
+}
+
+button {
+	overflow: visible;
+	cursor: pointer;
+	display: block;
+	background-color: #e5e5e5;
+	color: #757575;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	width: 100%; 
+}
